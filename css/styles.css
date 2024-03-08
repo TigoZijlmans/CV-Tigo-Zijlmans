@@ -6,46 +6,57 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+    font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #202030;
+    background-color: #f8f8fc;
 }
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h2{
+    font-family: "Madimi One", sans-serif;
+  }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #3a70a2;
 }
 
 .resume-main {
-	background-color: #fffefc;
+    background-color: #fffefc;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+    background-color: #a2a09d;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
-	font-weight: 800;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+    content: ">";
+    font-weight: 800;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 .biography-details li::before {
-	color: #EE7623;
+    color: #ee2323;
 }
 
 .biography-details li, .skill-list li {
-	padding-left: 1em;
+    padding-left: 1em;
 }
 
 /* Styles for contact icons */
 
 .contact-icon {
-	height: 1em;
-	flex-basis: 1.4em;
+    height: 1em;
+    flex-basis: 1.4em;
 }
+
+
